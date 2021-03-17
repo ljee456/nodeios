@@ -11,7 +11,12 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    //모든곳에서 사용할 데이터 업데이트 날짜를 저장할 프로퍼티
+    var updatedate : String! = nil
+    
+    //로그인 한 id와 nickname을 저장할 프로퍼티
+    var id:String! = nil
+    var nickname:String! = nil
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C37F5D8A8000FBA734ABDC4 /* Pods_nodeios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7EE08C2FED6156961C879C /* Pods_nodeios.framework */; };
+		A434C4AB25FB0498008A30C0 /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A434C4AA25FB0498008A30C0 /* img.jpg */; };
+		A434C4AE25FB0566008A30C0 /* ItemInsertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434C4AD25FB0566008A30C0 /* ItemInsertVC.swift */; };
 		A4702C3F25F9AB1400163A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4702C3E25F9AB1400163A50 /* AppDelegate.swift */; };
 		A4702C4125F9AB1400163A50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4702C4025F9AB1400163A50 /* SceneDelegate.swift */; };
 		A4702C4325F9AB1400163A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4702C4225F9AB1400163A50 /* ViewController.swift */; };
@@ -14,9 +17,17 @@
 		A4702C4925F9AB1400163A50 /* nodeios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4702C4725F9AB1400163A50 /* nodeios.xcdatamodeld */; };
 		A4702C4B25F9AB2B00163A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4702C4A25F9AB2B00163A50 /* Assets.xcassets */; };
 		A4702C4E25F9AB2B00163A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4702C4C25F9AB2B00163A50 /* LaunchScreen.storyboard */; };
+		A4702C5B25F9B50C00163A50 /* ItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4702C5A25F9B50C00163A50 /* ItemListVC.swift */; };
+		A4702C5E25F9B88000163A50 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4702C5D25F9B88000163A50 /* Item.swift */; };
+		A4702C6125F9E72200163A50 /* ItemDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4702C6025F9E72200163A50 /* ItemDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54E9326B933EC68E02199AEC /* Pods-nodeios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nodeios.release.xcconfig"; path = "Target Support Files/Pods-nodeios/Pods-nodeios.release.xcconfig"; sourceTree = "<group>"; };
+		5D7EE08C2FED6156961C879C /* Pods_nodeios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nodeios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BE41B10D64D4CEF46D6055 /* Pods-nodeios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nodeios.debug.xcconfig"; path = "Target Support Files/Pods-nodeios/Pods-nodeios.debug.xcconfig"; sourceTree = "<group>"; };
+		A434C4AA25FB0498008A30C0 /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
+		A434C4AD25FB0566008A30C0 /* ItemInsertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInsertVC.swift; sourceTree = "<group>"; };
 		A4702C3B25F9AB1400163A50 /* nodeios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nodeios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4702C3E25F9AB1400163A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4702C4025F9AB1400163A50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +37,9 @@
 		A4702C4A25F9AB2B00163A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4702C4D25F9AB2B00163A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4702C4F25F9AB2B00163A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4702C5A25F9B50C00163A50 /* ItemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListVC.swift; sourceTree = "<group>"; };
+		A4702C5D25F9B88000163A50 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A4702C6025F9E72200163A50 /* ItemDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C37F5D8A8000FBA734ABDC4 /* Pods_nodeios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28167FA503DC4AE00B543F02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D7EE08C2FED6156961C879C /* Pods_nodeios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4702C3225F9AB1400163A50 = {
 			isa = PBXGroup;
 			children = (
 				A4702C3D25F9AB1400163A50 /* nodeios */,
 				A4702C3C25F9AB1400163A50 /* Products */,
+				EFB22D6F2932840195E7B3D8 /* Pods */,
+				28167FA503DC4AE00B543F02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,11 +88,25 @@
 				A4702C4225F9AB1400163A50 /* ViewController.swift */,
 				A4702C4425F9AB1400163A50 /* Main.storyboard */,
 				A4702C4A25F9AB2B00163A50 /* Assets.xcassets */,
+				A434C4AA25FB0498008A30C0 /* img.jpg */,
 				A4702C4C25F9AB2B00163A50 /* LaunchScreen.storyboard */,
 				A4702C4F25F9AB2B00163A50 /* Info.plist */,
 				A4702C4725F9AB1400163A50 /* nodeios.xcdatamodeld */,
+				A4702C5A25F9B50C00163A50 /* ItemListVC.swift */,
+				A4702C5D25F9B88000163A50 /* Item.swift */,
+				A4702C6025F9E72200163A50 /* ItemDetailVC.swift */,
+				A434C4AD25FB0566008A30C0 /* ItemInsertVC.swift */,
 			);
 			path = nodeios;
+			sourceTree = "<group>";
+		};
+		EFB22D6F2932840195E7B3D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63BE41B10D64D4CEF46D6055 /* Pods-nodeios.debug.xcconfig */,
+				54E9326B933EC68E02199AEC /* Pods-nodeios.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4702C5225F9AB2B00163A50 /* Build configuration list for PBXNativeTarget "nodeios" */;
 			buildPhases = (
+				71A5E9E63AF9FDE0E8D5EE1E /* [CP] Check Pods Manifest.lock */,
 				A4702C3725F9AB1400163A50 /* Sources */,
 				A4702C3825F9AB1400163A50 /* Frameworks */,
 				A4702C3925F9AB1400163A50 /* Resources */,
+				9CB0FD97F2B314AFBF0D7568 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,10 +171,53 @@
 				A4702C4E25F9AB2B00163A50 /* LaunchScreen.storyboard in Resources */,
 				A4702C4B25F9AB2B00163A50 /* Assets.xcassets in Resources */,
 				A4702C4625F9AB1400163A50 /* Main.storyboard in Resources */,
+				A434C4AB25FB0498008A30C0 /* img.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71A5E9E63AF9FDE0E8D5EE1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nodeios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB0FD97F2B314AFBF0D7568 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nodeios/Pods-nodeios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nodeios/Pods-nodeios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nodeios/Pods-nodeios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4702C3725F9AB1400163A50 /* Sources */ = {
@@ -141,8 +225,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4702C4325F9AB1400163A50 /* ViewController.swift in Sources */,
+				A4702C5B25F9B50C00163A50 /* ItemListVC.swift in Sources */,
+				A434C4AE25FB0566008A30C0 /* ItemInsertVC.swift in Sources */,
 				A4702C4925F9AB1400163A50 /* nodeios.xcdatamodeld in Sources */,
+				A4702C6125F9E72200163A50 /* ItemDetailVC.swift in Sources */,
 				A4702C3F25F9AB1400163A50 /* AppDelegate.swift in Sources */,
+				A4702C5E25F9B88000163A50 /* Item.swift in Sources */,
 				A4702C4125F9AB1400163A50 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +375,7 @@
 		};
 		A4702C5325F9AB2B00163A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63BE41B10D64D4CEF46D6055 /* Pods-nodeios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,6 +394,7 @@
 		};
 		A4702C5425F9AB2B00163A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E9326B933EC68E02199AEC /* Pods-nodeios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
